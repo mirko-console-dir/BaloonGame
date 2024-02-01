@@ -3,19 +3,20 @@
     margin: 0;
     background-color: black;
   }
+
 </style>
 <div class="fixed text-white text-small ml-1 mt-1 select-none">
   <span>Score: </span><span id="scoreEl">0</span>
 </div>
 
-<div id="modalEl" class="fixed flex items-center justify-center">
+<div id="modalEl" class="fixed flex items-center justify-center" style="top: 50%; left: 50%; transform:translate(-50%,-50%)">
   <div class="bg-white max-w-md w-full p-6 text-center">
     <h1 id="biggerScore" class="text-4xl font-bold leading-none">0</h1>
     <p class="text-sm text-gray-700 mb-4">Points</p>
     <div>
       <button
         id="startGameBtn"
-        class="bg-blue-500 text-white w-full py-3 rounded-full text-sm"
+        class="bg-blue-500 text-white w-full py-3 rounded-full text-sm p-5"
       >
         Start Game
       </button>
